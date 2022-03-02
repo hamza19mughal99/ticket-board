@@ -1,0 +1,203 @@
+.board{
+    width: 100%;
+    background-color: #FFF056;
+    border-radius: 10px;
+    padding: 22px 8px;
+    margin: 10px 0;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+.board p span{
+    font-size: 10px;
+}
+
+.top_header_left{
+    background-color: black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 15px 3px
+}
+
+.header_btn_text, .toggle_on_btn, .toggle_off_btn{
+    width: 100%;
+    background-color: #1EB100;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    outline: none;
+    padding: 19px 2px;
+    font-weight: 700;
+    margin-right: 5px;
+    font-size: 14px;
+}
+.header_btn_text{
+    position: relative;
+}
+
+.header_btn_text span{
+    position: absolute;
+    top: -6px;
+    right: -3px;
+    background-color: #EE240E;
+    color: #fff;
+    padding: 9px 10px;
+    border-radius: 27px;
+}
+
+.toggle_on_btn{
+    padding: 47px 0;
+    font-size: 20px;
+}
+
+.toggle_off_btn{
+    background-color: #03A1FF;
+    padding: 47px 0;
+    font-size: 20px;
+}
+
+.toggle_on_btn .badge, .toggle_off_btn .badge {
+    position: relative;
+    top: -20px;
+    color: #fff;
+    font-size: 13px;
+}
+
+.toggle_off_btn .badge{
+    top: 22px;
+}
+
+.bottom_text{
+    width: 100%;
+    background-color: #1EB100;
+    border: none;
+    height: 100%;
+    height: 66px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+    margin-right: 5px;
+    padding: 10px 0;
+
+}
+
+.bottom_text p{
+    font-size: 12px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.portal_div{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left_header_btn_text{
+    background-color: #1EB100;
+    border-radius: 10px;
+    padding: 12px 8px;
+    margin: 10px 0;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.left_header_btn_text p{
+    margin-bottom: 0;
+    padding: 5px 0;
+}
+
+.stop_div p{
+    margin: 10px 0;
+    background-color: #89FA4F;
+    border-radius: 6px;
+    padding: 7px 0 7px 4px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.stop_name_div{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid black;
+    border-radius: 6px;
+    color: #EE240E;
+    padding: 7px 4px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.next_stop{
+    border: none !important;
+    background-color: #89FA4F !important;
+}
+
+.next_stop p {
+    color: black;
+    padding: 0 4px;
+}
+
+.stop_name_div p{
+    margin: 0;
+}
+
+.stop_name_div p span{
+   color: grey;
+   font-weight: 700;
+}
+
+.vehicle_text{
+    background-color: #D5D5D5;
+}
+
+.show{
+    display: none;
+}
+
+@media (max-width: 767px) and (orientation: portrait) {
+    /* html {
+        transform: rotate(-90deg);
+        transform-origin: left top;
+        width: 95vh;
+        overflow-x: hidden;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    } */
+    .main_section{
+        display: none;
+    }
+
+    .show{
+        display: block;
+    }
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+    /* html {
+        transform: rotate(-90deg);
+        transform-origin: left top;
+        width: 95vh;
+        overflow-x: hidden;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    } */
+    .main_section{
+        display: block;
+        transform: rotate(-90deg);
+        transform-origin: left top;
+        width: 95vh;
+        overflow-x: hidden;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        }
+
+    .show{
+        display: none;
+    }
+}
+
