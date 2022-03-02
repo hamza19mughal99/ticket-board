@@ -187,11 +187,11 @@
     } */
     .main_section{
         display: block;
-        transform: rotate(-90deg);
+        /* transform: rotate(-90deg); */
         transform-origin: left top;
         width: 95vh;
-        overflow-x: hidden;
-        position: absolute;
+        /* overflow-x: hidden; */
+        /* position: absolute; */
         top: 100%;
         left: 0;
         }
