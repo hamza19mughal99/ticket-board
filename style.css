@@ -157,43 +157,27 @@
 }
 
 @media (max-width: 767px) and (orientation: portrait) {
-    /* html {
-        transform: rotate(-90deg);
-        transform-origin: left top;
-        width: 95vh;
-        overflow-x: hidden;
-        position: absolute;
-        top: 100%;
-        left: 0;
-    } */
     .main_section{
         display: none;
     }
 
     .show{
         display: block;
+        
+    }
+    .show h3{
+        color: #03A1FF;
+        height: 100vh;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
 @media (max-width: 767px) and (orientation: landscape) {
-    /* html {
-        transform: rotate(-90deg);
-        transform-origin: left top;
-        width: 95vh;
-        overflow-x: hidden;
-        position: absolute;
-        top: 100%;
-        left: 0;
-    } */
     .main_section{
         display: block;
-        /* transform: rotate(-90deg); */
-        /* transform-origin: left top;
-        width: 95vh;
-        /* overflow-x: hidden; */
-        /* position: absolute; */
-        /* top: 100%;
-        left: 0;  */
         }
 
     .show{
